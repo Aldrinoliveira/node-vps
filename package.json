@@ -1,0 +1,21 @@
+{
+  "name": "dyndns-app",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "DynDNS Server for Hikvision cameras",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["dyndns", "hikvision", "api"],
+  "author": "Aldrin",
+  "license": "MIT"
+}
